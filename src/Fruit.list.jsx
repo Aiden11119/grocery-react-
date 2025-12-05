@@ -6,7 +6,7 @@ import tomato from './img/tomato.jpg';
 
 import React from 'react';
 
-import Fruit from './fruit';
+import Fruit from './Fruit';
 
 // 模拟数据 (使用您提供的西兰花数据)
 const Fruits = [
@@ -73,5 +73,6 @@ const FruitList = ({search}) => {
         </div>
     );
 };
+
 
 export default FruitList;
